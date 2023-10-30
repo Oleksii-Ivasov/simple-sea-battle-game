@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+  .main {
+    width: 800px;
+    border: 2px solid grey;
+    padding: 10px 0;
+    background: rgb(8, 2, 50);
+    margin: 32px auto 0;
+  }
+  
+  table {
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 1px;
+  }
+  
+  td {
+    width: 50px;
+    height: 50px;
+    background: rgb(187, 160, 6);
+    transition: all 0.3s ease;
+  }
+  
+  td[id]:hover {
+    /* transform: scale(0.95); */
+    background: rgb(201, 98, 7);
+  }
+  
+  .markup {
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: rgb(8, 2, 50);
+    color: rgb(245, 230, 230);
+    border: 0px;
+  } 
+  
+  #info {
+    width: 800px;
+    height: 100px;
+    background: rgb(31, 25, 69);
+    border: 2px solid grey;
+    margin: 5px auto 0;
+    color: rgb(245, 230, 230);
+    padding: 0 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  p {
+    width: 384px;
+    display: inline-block;
+  }
+  
+  #rules {
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+    color: rgb(237, 203, 10);
+  }
+  
+  h2 {
+    font-size: 22px;
+    color: rgb(237, 203, 10);
+  }
+  
